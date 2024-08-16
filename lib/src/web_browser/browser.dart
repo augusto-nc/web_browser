@@ -166,8 +166,9 @@ class Browser extends StatefulWidget {
       controller.uriString,
       sharePositionOrigin: box!.localToGlobal(Offset.zero) & box.size,
     );
+    */
   }
-  */
+  
 
   /// Returns [BrowserState] of the ancestor.
   ///
