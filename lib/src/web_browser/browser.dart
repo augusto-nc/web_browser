@@ -15,7 +15,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:share_plus/share_plus.dart' as share_plus;
+
 import 'package:webview_flutter/webview_flutter.dart';
 
 import '../../auto.dart';
@@ -161,11 +161,13 @@ class Browser extends StatefulWidget {
       return;
     }
     final box = context.findRenderObject() as RenderBox?;
+   /*
     share_plus.Share.share(
       controller.uriString,
       sharePositionOrigin: box!.localToGlobal(Offset.zero) & box.size,
     );
   }
+  */
 
   /// Returns [BrowserState] of the ancestor.
   ///
